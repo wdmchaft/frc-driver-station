@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DriverStationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DriverStationAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		3E74C89C12A5E9310068CD73 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E74C89B12A5E9310068CD73 /* MainWindow.xib */; };
+		3E74C8BE12A5EDC50068CD73 /* RotationLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E74C8BD12A5EDC50068CD73 /* RotationLock.m */; };
+		3E7573BB12A9463500FB0BBF /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7573BA12A9463500FB0BBF /* Utilities.m */; };
+		3E78743E12B05A8400F5DA55 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E78743D12B05A8400F5DA55 /* camera.png */; };
+		3E7E820D12AEB94100A4458E /* gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7E820912AEB94100A4458E /* gear2.png */; };
+		3E7E820E12AEB94100A4458E /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7E820A12AEB94100A4458E /* radar.png */; };
+		3E7E820F12AEB94100A4458E /* sliders.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7E820B12AEB94100A4458E /* sliders.png */; };
+		3E7E821012AEB94100A4458E /* controller.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7E820C12AEB94100A4458E /* controller.png */; };
+		3E7EDDDB12A6F59D0062802D /* CRCVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7EDDDA12A6F59D0062802D /* CRCVerifier.m */; };
+		3E7F454512AA2315001364F0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7F454412AA2315001364F0 /* CoreMotion.framework */; };
+		3E80E3B212AC2A51005397E1 /* ButtonDisable.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E80E3B012AC2A51005397E1 /* ButtonDisable.png */; };
+		3E80E3B312AC2A51005397E1 /* ButtonEnable.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E80E3B112AC2A51005397E1 /* ButtonEnable.png */; };
+		3E80E3B912AC30DC005397E1 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E80E3B812AC30DC005397E1 /* checkmark.png */; };
+		3E80E3BB12AC3209005397E1 /* Cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E80E3BA12AC3209005397E1 /* Cancel.png */; };
+		3E81140D12FCE22A005E46C5 /* Help.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E81140C12FCE22A005E46C5 /* Help.png */; };
+		3E9C345812A85077004438A7 /* ControlScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C345712A85077004438A7 /* ControlScreen.m */; };
+		3E9D2CA212A68FD1003BD563 /* NetworkMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9D2CA112A68FD1003BD563 /* NetworkMain.m */; };
+		3E9D2CA712A6951C003BD563 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9D2CA612A6951C003BD563 /* CFNetwork.framework */; };
+		3EBE3C0912B73D330072ACE7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EBE3C0812B73D330072ACE7 /* Default.png */; };
+		3EBE3D0612B7530B0072ACE7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EBE3D0512B7530B0072ACE7 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DriverStationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverStationAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DriverStationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverStationAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DriverStationLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriverStationLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* DriverStation_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverStation_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E74C89B12A5E9310068CD73 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		3E74C8BC12A5EDC50068CD73 /* RotationLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationLock.h; sourceTree = "<group>"; };
+		3E74C8BD12A5EDC50068CD73 /* RotationLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationLock.m; sourceTree = "<group>"; };
+		3E7573B912A9463500FB0BBF /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		3E7573BA12A9463500FB0BBF /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		3E78743D12B05A8400F5DA55 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		3E7E820912AEB94100A4458E /* gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear2.png; sourceTree = "<group>"; };
+		3E7E820A12AEB94100A4458E /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar.png; sourceTree = "<group>"; };
+		3E7E820B12AEB94100A4458E /* sliders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliders.png; sourceTree = "<group>"; };
+		3E7E820C12AEB94100A4458E /* controller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controller.png; sourceTree = "<group>"; };
+		3E7EDDD912A6F59D0062802D /* CRCVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRCVerifier.h; sourceTree = "<group>"; };
+		3E7EDDDA12A6F59D0062802D /* CRCVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRCVerifier.m; sourceTree = "<group>"; };
+		3E7F454412AA2315001364F0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		3E80E3B012AC2A51005397E1 /* ButtonDisable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonDisable.png; sourceTree = "<group>"; };
+		3E80E3B112AC2A51005397E1 /* ButtonEnable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonEnable.png; sourceTree = "<group>"; };
+		3E80E3B812AC30DC005397E1 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		3E80E3BA12AC3209005397E1 /* Cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cancel.png; sourceTree = "<group>"; };
+		3E81140C12FCE22A005E46C5 /* Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Help.png; sourceTree = "<group>"; };
+		3E9C345612A85077004438A7 /* ControlScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlScreen.h; sourceTree = "<group>"; };
+		3E9C345712A85077004438A7 /* ControlScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlScreen.m; sourceTree = "<group>"; };
+		3E9D2CA012A68FD1003BD563 /* NetworkMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkMain.h; sourceTree = "<group>"; };
+		3E9D2CA112A68FD1003BD563 /* NetworkMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkMain.m; sourceTree = "<group>"; };
+		3E9D2CA612A6951C003BD563 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3EA8BD6412BDA3D10022FC09 /* PacketDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PacketDef.h; path = ../DriverStation/PacketDef.h; sourceTree = SOURCE_ROOT; };
+		3EBE3C0812B73D330072ACE7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3EBE3D0212B752DD0072ACE7 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		3EBE3D0512B7530B0072ACE7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DriverStation-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DriverStation-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				3E9D2CA712A6951C003BD563 /* CFNetwork.framework in Frameworks */,
+				3E7F454512AA2315001364F0 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* DriverStationAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DriverStationAppDelegate.m */,
+				3E74C8BC12A5EDC50068CD73 /* RotationLock.h */,
+				3E74C8BD12A5EDC50068CD73 /* RotationLock.m */,
+				3E9C345612A85077004438A7 /* ControlScreen.h */,
+				3E9C345712A85077004438A7 /* ControlScreen.m */,
+				3E7573B912A9463500FB0BBF /* Utilities.h */,
+				3E7573BA12A9463500FB0BBF /* Utilities.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DriverStationLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DriverStationLite */ = {
+			isa = PBXGroup;
+			children = (
+				3E80E39F12AC27FE005397E1 /* Images */,
+				3E9D2C9F12A68FB7003BD563 /* Network */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = DriverStationLite;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* DriverStation_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E74C89B12A5E9310068CD73 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* DriverStation-Info.plist */,
+				3EBE3D0212B752DD0072ACE7 /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				3E9D2CA612A6951C003BD563 /* CFNetwork.framework */,
+				3E7F454412AA2315001364F0 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E80E39F12AC27FE005397E1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3E81140C12FCE22A005E46C5 /* Help.png */,
+				3EBE3D0512B7530B0072ACE7 /* icon.png */,
+				3EBE3C0812B73D330072ACE7 /* Default.png */,
+				3E78743D12B05A8400F5DA55 /* camera.png */,
+				3E7E820912AEB94100A4458E /* gear2.png */,
+				3E7E820A12AEB94100A4458E /* radar.png */,
+				3E7E820B12AEB94100A4458E /* sliders.png */,
+				3E7E820C12AEB94100A4458E /* controller.png */,
+				3E80E3BA12AC3209005397E1 /* Cancel.png */,
+				3E80E3B812AC30DC005397E1 /* checkmark.png */,
+				3E80E3B012AC2A51005397E1 /* ButtonDisable.png */,
+				3E80E3B112AC2A51005397E1 /* ButtonEnable.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3E9D2C9F12A68FB7003BD563 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3E9D2CA012A68FD1003BD563 /* NetworkMain.h */,
+				3E9D2CA112A68FD1003BD563 /* NetworkMain.m */,
+				3EA8BD6412BDA3D10022FC09 /* PacketDef.h */,
+				3E7EDDD912A6F59D0062802D /* CRCVerifier.h */,
+				3E7EDDDA12A6F59D0062802D /* CRCVerifier.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DriverStationLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DriverStationLite" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriverStationLite;
+			productName = DriverStationLite;
+			productReference = 1D6058910D05DD3D006BFB54 /* DriverStationLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = AlphaGeek;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DriverStationLite" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DriverStationLite */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DriverStationLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E74C89C12A5E9310068CD73 /* MainWindow.xib in Resources */,
+				3E80E3B212AC2A51005397E1 /* ButtonDisable.png in Resources */,
+				3E80E3B312AC2A51005397E1 /* ButtonEnable.png in Resources */,
+				3E80E3B912AC30DC005397E1 /* checkmark.png in Resources */,
+				3E80E3BB12AC3209005397E1 /* Cancel.png in Resources */,
+				3E7E820D12AEB94100A4458E /* gear2.png in Resources */,
+				3E7E820E12AEB94100A4458E /* radar.png in Resources */,
+				3E7E820F12AEB94100A4458E /* sliders.png in Resources */,
+				3E7E821012AEB94100A4458E /* controller.png in Resources */,
+				3E78743E12B05A8400F5DA55 /* camera.png in Resources */,
+				3EBE3C0912B73D330072ACE7 /* Default.png in Resources */,
+				3EBE3D0612B7530B0072ACE7 /* icon.png in Resources */,
+				3E81140D12FCE22A005E46C5 /* Help.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DriverStationAppDelegate.m in Sources */,
+				3E74C8BE12A5EDC50068CD73 /* RotationLock.m in Sources */,
+				3E9D2CA212A68FD1003BD563 /* NetworkMain.m in Sources */,
+				3E7EDDDB12A6F59D0062802D /* CRCVerifier.m in Sources */,
+				3E9C345812A85077004438A7 /* ControlScreen.m in Sources */,
+				3E7573BB12A9463500FB0BBF /* Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/DriverStationLite/Entitlements.plist";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ben Abraham";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ben Abraham";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DriverStation_Prefix.pch;
+				INFOPLIST_FILE = "DriverStation-Info.plist";
+				PRODUCT_NAME = DriverStationLite;
+				PROVISIONING_PROFILE = "240E5395-90F8-45F4-922B-E80C7E89E5F7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "240E5395-90F8-45F4-922B-E80C7E89E5F7";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/DriverStationLite/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DriverStation_Prefix.pch;
+				INFOPLIST_FILE = "DriverStation-Info.plist";
+				PRODUCT_NAME = DriverStationLite;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EBE3CFD12B752B00072ACE7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ben Abraham";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ben Abraham";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "240E5395-90F8-45F4-922B-E80C7E89E5F7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "240E5395-90F8-45F4-922B-E80C7E89E5F7";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Distribution;
+		};
+		3EBE3CFE12B752B00072ACE7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/DriverStationLite/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DriverStation_Prefix.pch;
+				INFOPLIST_FILE = "DriverStation-Info.plist";
+				PRODUCT_NAME = DriverStationLite;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ben Abraham";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ben Abraham";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "240E5395-90F8-45F4-922B-E80C7E89E5F7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "240E5395-90F8-45F4-922B-E80C7E89E5F7";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DriverStationLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				3EBE3CFE12B752B00072ACE7 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DriverStationLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				3EBE3CFD12B752B00072ACE7 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

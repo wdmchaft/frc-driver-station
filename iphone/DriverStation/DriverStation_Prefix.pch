@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'DriverStation' target in the 'DriverStation' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+
+	#define RobotNotConnected 0
+	#define RobotDisabled 1
+	#define RobotWatchdogNotFed 2
+#define RobotEnabled 4
+#define RobotAutonomous 8
+
+#define CameraNotStarted 0
+#define CameraNotConnected 1
+#define CameraConnected 2
+
+#endif

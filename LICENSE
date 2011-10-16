@@ -1,0 +1,20 @@
+see iphone/LICENSE for the license to the code in there
+
+the rest of this code (when made) will not use that code except as a reference
+frc-driver-station is released under gplv3 or later at your option.
+see COPYING for more details.
+
+This file is part of frc-driver-station.
+
+    frc-driver-station is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    frc-driver-station is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with frc-driver-station.  If not, see <http://www.gnu.org/licenses/>.

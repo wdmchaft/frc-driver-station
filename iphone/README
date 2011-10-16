@@ -1,0 +1,7 @@
+As far as the source code goes, it will be attached to this email, as well as my
+unreleased "pro" version. This version was not release due to the in-ability to
+test it on a fully working robot. The pro version added the ability to use the
+accelerometer and camera from the robot. The code was tested quite a bit, with
+both the camera and accelerometer, but in the end I never released it. It SHOULD
+work, but I never got to the point where I KNOW it works.
+
