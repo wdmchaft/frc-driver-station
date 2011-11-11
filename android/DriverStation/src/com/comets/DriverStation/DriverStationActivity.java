@@ -23,8 +23,20 @@ public class DriverStationActivity extends TabActivity {
         Intent intent;  // Reusable Intent for each tab
 
         intent = new Intent().setClass(this, MainTabActivity.class);
-        spec = tabHost.newTabSpec("test").setIndicator("Test",
-                          res.getDrawable(R.drawable.ic_launcher))
+        spec = tabHost.newTabSpec("main").setIndicator("Main",
+                          res.getDrawable(R.drawable.controller))
+                      .setContent(intent);
+        tabHost.addTab(spec);
+
+        intent = new Intent().setClass(this, IOTabActivity.class);
+        spec = tabHost.newTabSpec("io").setIndicator("I/O",
+                          res.getDrawable(R.drawable.sliders))
+                      .setContent(intent);
+        tabHost.addTab(spec);
+
+        intent = new Intent().setClass(this, SettingsTabActivity.class);
+        spec = tabHost.newTabSpec("settings").setIndicator("Settings",
+                          res.getDrawable(R.drawable.gear2))
                       .setContent(intent);
         tabHost.addTab(spec);
 

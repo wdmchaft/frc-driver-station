@@ -2,7 +2,6 @@ package com.comets.DriverStation;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.*;
 
 public class MainTabActivity extends Activity
 {
