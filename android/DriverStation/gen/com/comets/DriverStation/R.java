@@ -10,6 +10,9 @@ package com.comets.DriverStation;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int boredrcolor=0x7f040000;
+    }
     public static final class drawable {
         public static final int camera=0x7f020000;
         public static final int controller=0x7f020001;
@@ -21,35 +24,38 @@ public final class R {
         public static final int sliders=0x7f020007;
     }
     public static final class id {
-        public static final int linearLayout1=0x7f050000;
-        public static final int linearLayout2=0x7f050001;
-        public static final int linearLayout3=0x7f05000a;
-        public static final int linearLayout4=0x7f050013;
-        public static final int linearLayout5=0x7f050018;
-        public static final int progressBar1=0x7f05000b;
-        public static final int progressBar2=0x7f05000c;
-        public static final int progressBar3=0x7f05000d;
-        public static final int progressBar4=0x7f05000e;
-        public static final int progressBar5=0x7f05000f;
-        public static final int progressBar6=0x7f050010;
-        public static final int progressBar7=0x7f050011;
-        public static final int progressBar8=0x7f050012;
-        public static final int seekBar1=0x7f050002;
-        public static final int seekBar2=0x7f050003;
-        public static final int seekBar3=0x7f050004;
-        public static final int seekBar4=0x7f050005;
-        public static final int seekBar5=0x7f050006;
-        public static final int seekBar6=0x7f050007;
-        public static final int seekBar7=0x7f050008;
-        public static final int seekBar8=0x7f050009;
-        public static final int toggleButton1=0x7f050014;
-        public static final int toggleButton2=0x7f050015;
-        public static final int toggleButton3=0x7f050016;
-        public static final int toggleButton4=0x7f050017;
-        public static final int toggleButton5=0x7f050019;
-        public static final int toggleButton6=0x7f05001a;
-        public static final int toggleButton7=0x7f05001b;
-        public static final int toggleButton8=0x7f05001c;
+        public static final int LinearLayout01=0x7f06000a;
+        public static final int LinearLayout02=0x7f06000b;
+        public static final int LinearLayout03=0x7f060010;
+        public static final int ToggleButton01=0x7f060014;
+        public static final int ToggleButton02=0x7f060013;
+        public static final int ToggleButton03=0x7f06000f;
+        public static final int ToggleButton04=0x7f06000e;
+        public static final int ToggleButton05=0x7f060012;
+        public static final int ToggleButton06=0x7f060011;
+        public static final int ToggleButton07=0x7f06000d;
+        public static final int ToggleButton08=0x7f06000c;
+        public static final int linearLayout1=0x7f060000;
+        public static final int linearLayout2=0x7f060001;
+        public static final int linearLayout4=0x7f060016;
+        public static final int linearLayout5=0x7f06001b;
+        public static final int linearLayout6=0x7f060015;
+        public static final int seekBar1=0x7f060002;
+        public static final int seekBar2=0x7f060003;
+        public static final int seekBar3=0x7f060004;
+        public static final int seekBar4=0x7f060005;
+        public static final int seekBar5=0x7f060006;
+        public static final int seekBar6=0x7f060007;
+        public static final int seekBar7=0x7f060008;
+        public static final int seekBar8=0x7f060009;
+        public static final int toggleButton1=0x7f060017;
+        public static final int toggleButton2=0x7f060018;
+        public static final int toggleButton3=0x7f060019;
+        public static final int toggleButton4=0x7f06001a;
+        public static final int toggleButton5=0x7f06001c;
+        public static final int toggleButton6=0x7f06001d;
+        public static final int toggleButton7=0x7f06001e;
+        public static final int toggleButton8=0x7f06001f;
     }
     public static final class layout {
         public static final int iotab=0x7f030000;
@@ -58,7 +64,7 @@ public final class R {
         public static final int settingstab=0x7f030003;
     }
     public static final class string {
-        public static final int app_name=0x7f040001;
-        public static final int hello=0x7f040000;
+        public static final int app_name=0x7f050001;
+        public static final int hello=0x7f050000;
     }
 }

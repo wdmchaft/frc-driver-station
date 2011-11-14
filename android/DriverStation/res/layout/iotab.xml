@@ -4,184 +4,115 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:orientation="horizontal" >
-
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="match_parent" android:orientation="horizontal"	android:padding="5px">
+
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_margin="5px"
             android:background="@drawable/roundborder"
             android:orientation="vertical" >
 
-            <SeekBar
-                android:id="@+id/seekBar1"
-                android:layout_width="164dp"
-                android:layout_height="wrap_content" />
-
-            <SeekBar
-                android:id="@+id/seekBar2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <SeekBar
-                android:id="@+id/seekBar3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <SeekBar
-                android:id="@+id/seekBar4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <SeekBar
-                android:id="@+id/seekBar5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <SeekBar
-                android:id="@+id/seekBar6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <SeekBar
-                android:id="@+id/seekBar7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <SeekBar
-                android:id="@+id/seekBar8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
+            <SeekBar android:id="@+id/seekBar1" android:layout_width="150dp" android:layout_height="wrap_content" />
+            <SeekBar android:id="@+id/seekBar2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+            <SeekBar android:id="@+id/seekBar3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+            <SeekBar android:id="@+id/seekBar4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+            <SeekBar android:id="@+id/seekBar5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+            <SeekBar android:id="@+id/seekBar6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+            <SeekBar android:id="@+id/seekBar7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" />
+            <SeekBar android:id="@+id/seekBar8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" />
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linearLayout3"
+            android:id="@+id/LinearLayout01"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_gravity="top"
-            android:background="@drawable/roundborder"
-            android:orientation="vertical" >
-
-            <ProgressBar
-                android:id="@+id/progressBar1"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <ProgressBar
-                android:id="@+id/progressBar2"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            android:layout_margin="5px"
+            android:background="@drawable/roundborder" >
 
-            <ProgressBar
-                android:id="@+id/progressBar3"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
 
-            <ProgressBar
-                android:id="@+id/progressBar4"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                <ToggleButton
+                    android:id="@+id/ToggleButton08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ToggleButton" />
 
-            <ProgressBar
-                android:id="@+id/progressBar5"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                <ToggleButton
+                    android:id="@+id/ToggleButton07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ToggleButton" />
 
-            <ProgressBar
-                android:id="@+id/progressBar6"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                <ToggleButton
+                    android:id="@+id/ToggleButton04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ToggleButton" />
 
-            <ProgressBar
-                android:id="@+id/progressBar7"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                <ToggleButton
+                    android:id="@+id/ToggleButton03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ToggleButton" />
+            </LinearLayout>
 
-            <ProgressBar
-                android:id="@+id/progressBar8"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:id="@+id/LinearLayout03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ToggleButton" />
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ToggleButton" />
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ToggleButton" />
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ToggleButton" />
+            </LinearLayout>
         </LinearLayout>
-
+        
         <LinearLayout
-            android:id="@+id/linearLayout4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
-
-            <ToggleButton
-                android:id="@+id/toggleButton1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ToggleButton" />
-
-            <ToggleButton
-                android:id="@+id/toggleButton2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ToggleButton" />
-
-            <ToggleButton
-                android:id="@+id/toggleButton3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ToggleButton" />
-
-            <ToggleButton
-                android:id="@+id/toggleButton4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ToggleButton" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/linearLayout5"
-            android:layout_width="match_parent"
+            android:id="@+id/linearLayout6"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical" >
+            android:layout_margin="5px"
+            android:background="@drawable/roundborder" >
 
-            <ToggleButton
-                android:id="@+id/toggleButton5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ToggleButton" />
-
-            <ToggleButton
-                android:id="@+id/toggleButton6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ToggleButton" />
-
-            <ToggleButton
-                android:id="@+id/toggleButton7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ToggleButton" />
-
-            <ToggleButton
-                android:id="@+id/toggleButton8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ToggleButton" />
+            <LinearLayout android:id="@+id/linearLayout4" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <ToggleButton android:id="@+id/toggleButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ToggleButton"/>
+                <ToggleButton android:id="@+id/toggleButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ToggleButton"/>
+                <ToggleButton android:id="@+id/toggleButton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ToggleButton"/>
+                <ToggleButton android:id="@+id/toggleButton4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ToggleButton"/>
+            </LinearLayout>
+            <LinearLayout android:layout_height="match_parent" android:id="@+id/linearLayout5" android:layout_width="match_parent" android:orientation="vertical">
+                <ToggleButton android:id="@+id/toggleButton5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ToggleButton"/>
+                <ToggleButton android:id="@+id/toggleButton6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ToggleButton"/>
+                <ToggleButton android:id="@+id/toggleButton7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ToggleButton"/>
+                <ToggleButton android:id="@+id/toggleButton8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ToggleButton"/>
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
