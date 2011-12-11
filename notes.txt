@@ -1,0 +1,17 @@
+
+iphone/DriverStation/NetworkMain.m
+int toRobotPort = 1110;
+int fromRobotPort = 1150;
+...
+struct FRCCommonControlData toRobotData;
+struct RobotDataPacket fromRobotData;
+...
+-(id)init
+{
+	[Utilities setLong:&toRobotData.versionData value:0x3130303230383030];
+}
+...
+	IP = [NSString stringWithFormat:@"10.%i.%i.6",(int)(teamNum/100),teamNum%100];
+	robotIP = [NSString stringWithFormat:@"10.%i.%i.2",(int)(teamNum/100),teamNum%100];
+...
+	sender = [NSTimer timerWithTimeInterval:.019 target:self selector:@selector(updateAndSend)
