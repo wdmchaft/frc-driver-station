@@ -1,4 +1,10 @@
 log/*
 *~
 .*.sw?
-
+*.class
+*.cache
+android/DriverStation/gen/com/comets/DriverStation/BuildConfig.java
+captures/
+frc-driver-station-captures/
+android/DriverStation/lint.xml
+*.zip
